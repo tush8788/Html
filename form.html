@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Form</Title>
+    </head>
+    <body>
+       <div>
+           <h1>Login Form</h1>
+
+           <form>
+                <div>
+                    <label for="username">UserName</label><br>
+                    <input type="text" id="username" required>
+                </div>
+                <div>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" required>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+       </div>
+
+       <br>
+       <div>
+           <h1>Number</h1>
+           <input type="number">
+       </div>
+
+       <br>
+       <div>
+           <h1>Time</h1>
+           <input type="time">
+       </div>
+
+       <br>
+       <div>
+           <form >
+            <h1>Email</h1>
+            <input type="email">
+            <input type="submit">
+           </form>
+       </div>
+
+       <div>
+        <form >
+         <h1>URL</h1>
+         <input type="url">
+         <input type="submit">
+        </form>
+    </div>
+
+    <br>
+    <div>
+        <h1>Date</h1>
+        <input type="date">
+    </div>
+
+    <br>
+    <div>
+        <h1>Time and Date </h1>
+        <input type="datetime-local">
+    </div>
+
+    <br>
+    <div>
+        <h1>Range</h1>
+        <input type="range" min="10" max="50" step="10">
+    </div>
+
+    <div>
+        <h1>placeholder</h1>
+        <input type="email" placeholder="email">
+    </div>
+
+    <div>
+        <h1>readonly</h1>
+        <input type="text" readonly>
+    </div>
+
+    <div>
+        <h1>Default Value</h1>
+        <input type="email" placeholder="email" value="tu@gmail.com">
+    </div>
+
+    <div>
+        <h1>hidden Value</h1>
+        <input type="email" hidden>
+    </div>
+
+    <div>
+        <h1>Disabled</h1>
+        <input type="email" value="tr@rr.com" disabled>
+    </div>
+
+    <div>
+      <form action="">
+        <h1>Redio Button</h1>
+        <p>Gender</p>
+        <input type="radio"name="gender" value="male" checked>male <br>  <!--cheched means bydefault seleced-->
+        <input type="radio"name="gender" value="female">female <br>
+        <input type="radio" name="gender" value="other">other <br>
+        <input type="submit">
+      </form>
+    </div>
+
+    <div>
+        <h1>Check Box</h1>
+        <input type="checkbox" name="" value="java" checked>Java<br> <!--cheched means bydefault seleced-->
+        <input type="Checkbox" name="" value="python">Python <br>
+        <input type="checkbox" name="" value="C++">C++
+    </div>
+
+    <div>
+        <h1>Dropdown List</h1>
+        <p>Month</p>
+        <select name="month_selected">
+            <option>jan</option>
+            <option selected>feb</option>
+            <option>mar</option>
+            <option>apr</option>
+        </select>
+    </div>
+
+    <div>
+        <h1>Dropdown List select multiple</h1>
+        <p>Month</p>
+        <select name="month_selected" multiple>
+            <option>jan</option>
+            <option selected>feb</option>
+            <option>mar</option>
+            <option>apr</option>
+        </select>
+    </div>
+
+    <div>
+        <h1>TextArea</h1>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+
+
+    <div>
+        <h1>Button</h1>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <br>
+        <button type="button"><img src="images/logo.png" alt=""></button>  <!--image as a button-->
+    </div>
+    <br><br>
+    <div>
+        <h1>Get Request</h1>
+        <form method="GET" action="#">
+            <input type="text" name="username">
+            <input type="submit">
+        </form>
+    </div>
+
+    <div>
+        <h1>post Request</h1>
+        <form method="post">
+            <input type="text" name="usernameN">
+            <input type="submit">
+        </form>
+    </div>
+    </body>
+</html>
